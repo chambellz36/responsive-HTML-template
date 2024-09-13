@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Logo</div>
+        <div class="header-links">
+            <a href="#link1">Link 1</a>
+            <a href="#link2">Link 2</a>
+            <a href="#link3">Link 3</a>
+            <a href="#link4">Link 4</a>
+            <a href="category.html">Category</a>
+        </div>
+        <input type="text" placeholder="Search...">
+        <button class="cart-button">Cart</button>
+    </header>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="sidebar-block">Block 1</div>
+            <div class="sidebar-block">Block 2</div>
+            <div class="sidebar-block">Block 3</div>
+        </aside>
+        <main>
+            <div class="slider">
+                <img src="image1.jpg" alt="Slide 1">
+                <img src="image2.jpg" alt="Slide 2">
+                <img src="image3.jpg" alt="Slide 3">
+            </div>
+            <form class="login-form">
+                <input type="text" placeholder="Username">
+                <input type="password" placeholder="Password">
+                <button type="submit">Login</button>
+            </form>
+        </main>
+    </div>
+    <footer>
+        <a href="#footer-link1">Footer Link 1</a>
+        <a href="#footer-link2">Footer Link 2</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
