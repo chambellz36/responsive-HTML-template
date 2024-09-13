@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background: #f8f8f8;
+}
+
+.logo {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.header-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+.header-links a:hover {
+    color: #007bff;
+}
+
+input[type="text"], input[type="password"] {
+    margin: 5px;
+}
+
+.cart-button {
+    margin-left: 10px;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    background: #f0f0f0;
+    padding: 10px;
+}
+
+.sidebar-block {
+    margin-bottom: 10px;
+}
+
+main {
+    flex: 1;
+    padding: 10px;
+}
+
+.slider img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #f8f8f8;
+}
+
+footer a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000;
+}
